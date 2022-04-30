@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: black;
+  padding: 10px 20px;
+  position: fixed;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-right: 90px;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("./images/bg-hero-section.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: center;
+  padding-left: 5%;
+  padding-top: 8%;
+  gap: 75px;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 72px;
+  line-height: 1;
+}
+
+.buttons-hero {
+  display: flex;
+  gap: 50px;
+}
+
+.buttons-hero button {
+  text-align: center;
+  width: 175px;
+  height: 40px;
+  color: white;
+}
+
+.getstarted-hero {
+  border: #f24242 1px solid;
+  background-color: #f24242;
+  cursor: pointer;
+}
+
+.getstarted-hero:hover {
+  background-color: #171717;
+}
+
+.learn-hero {
+  border: white 1px solid;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.learn-hero:hover {
+  background-color: #f24242;
+}
